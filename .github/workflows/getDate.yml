@@ -1,7 +1,7 @@
 name: getDate
 on:
   push:
-    branches: [ master ]
+    branches: [ master, LZygmunt* ]
   workflow_dispatch:
 jobs:
   get_date:
