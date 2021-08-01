@@ -24,5 +24,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: get date
         run: date +'%Y-%m-%d %H:%M:%S %z%Z'
+      - name: get timezone list
+        run: timedatectl list-timezones
