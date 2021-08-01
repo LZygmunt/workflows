@@ -19,7 +19,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Bump version
         run: |
-          git config --global user.email "lzygmunt0@gmail.com"
+          git config --global user.email "LZygmunt-BumperBot@user.noreply.github.com"
           git config --global user.name "LZygmunt-BumperBot"
           npm run bump
-          git push --follow-tags
+          git push --follow-tags --no-verify
