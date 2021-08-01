@@ -25,6 +25,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: get date
-        run: date +'%Y-%m-%d %H:%M:%S %z%Z'
-      - name: get timezone list
-        run: timedatectl list-timezones
+        run: TZ=Europe/Warsaw date +'%Y-%m-%d %H:%M:%S %z%Z'
