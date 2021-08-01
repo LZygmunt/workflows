@@ -5,7 +5,7 @@
   "dependencies": {
   },
   "scripts": {
-    "bump": "npm version patch"
+    "bump": "npm version patch -m \"ci: Bump version to %s [skip ci]\""
   },
   "browserslist": {
     "production": [
