@@ -22,4 +22,4 @@ jobs:
           git config --global user.email "lzygmunt0@gmail.com"
           git config --global user.name "LZygmunt-BumperBot"
           npm run bump
-          git push
+          git push --follow-tags
