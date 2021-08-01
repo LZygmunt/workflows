@@ -1,9 +1,7 @@
 {
   "name": "workflows",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
-  "dependencies": {
-  },
   "scripts": {
     "bump": "npm version patch -m \"ci: Bump version to %s [skip ci]\""
   },
@@ -19,6 +17,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
