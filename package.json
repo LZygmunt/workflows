@@ -1,6 +1,6 @@
 {
   "name": "workflows",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "scripts": {
     "bump": "npm version patch -m \"ci: Bump version to %s [skip ci]\""
